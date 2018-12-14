@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('.card').hover(function(){
+        $(this).addClass('bgblue');
+        $(this).children('img').addClass('img-normal');
+    },function(){
+        $(this).removeClass('bgblue');
+        $(this).children('img').removeClass('img-normal');
+    });
+});

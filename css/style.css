@@ -4,3 +4,33 @@
 .card-title {
     font-size: 90%;
 }
+.card {
+    min-height: 14rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #360000;
+}
+/*
+.card:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+*/
+.bgblue {
+    background-color:navy;
+    color: aliceblue;
+}
+.col-sm {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card-img-top {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.img-normal {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(10%);
+}
